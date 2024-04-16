@@ -1,0 +1,28 @@
+{
+    "dataset_name": "Life Expectancy",
+    "description": "Life expectancy around the world between 2000 and 2019",
+    "data_columns": [
+        {
+            "name": "Entity",
+            "description": "Name of the Country",
+            "datatype": "string"
+        },
+        {
+            "name": "Code",
+            "description": "Abbrevation of the Country",
+            "datatype": "string"
+        },
+        {
+            "name": "Year",
+            "description": "The year in which the data was collected",
+            "datatype": "int"
+        },
+        {
+            "name": "Life expectancy at birth (years) - Sex: both sexes",
+            "description": "Average life expectancy in years",
+            "datatype": "float"
+        }
+    ],
+    "format": "CSV",
+    "source": "https://ourworldindata.org/explorers/global-health?tab=table&time=2018..latest&facet=none&Health+Area=Life+expectancy&Indicator=Life+expectancy+at+birth&Metric=Number+of+deaths&Source=WHO+%28GHO%29&country=OWID_WRL~CHN~ZAF~BRA~USA~GBR~IND~RWA"
+}

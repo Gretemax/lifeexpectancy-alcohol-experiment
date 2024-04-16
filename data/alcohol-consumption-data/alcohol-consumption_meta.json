@@ -1,0 +1,28 @@
+{
+    "dataset_name": "Alcohol Consumption",
+    "description": "Who consumes the most alcohol? How has consumption changed over time?",
+    "data_columns": [
+        {
+            "name": "Entity",
+            "description": "Name of the Country",
+            "datatype": "string"
+        },
+        {
+            "name": "Code",
+            "description": "Abbrevation of the Country",
+            "datatype": "string"
+        },
+        {
+            "name": "Year",
+            "description": "The year in which the data was collected",
+            "datatype": "int"
+        },
+        {
+            "name": "Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",
+            "description": "Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",
+            "datatype": "float"
+        }
+    ],
+    "format": "CSV",
+    "source": "https://www.kaggle.com/datasets/willianoliveiragibin/alcohol-consumption?resource=download"
+}
